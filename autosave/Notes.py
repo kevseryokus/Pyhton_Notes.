@@ -28,7 +28,6 @@ int(11.6)
 float(12)
 type(str(12))
 
-
 #PRİNT FONKSİYONU
 
 print("hello" , "ingilizce" , sep = ".." )
