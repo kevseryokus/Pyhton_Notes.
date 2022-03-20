@@ -47,7 +47,6 @@ print()
 print()
 
 
-
 ifade = "gelecek_geldi"
 ifade.replace("i", "ı")
 
