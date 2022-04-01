@@ -173,3 +173,32 @@ alan=int(kisa)*int(uzun)
 cevre=2*(int(kisa)+int(uzun))
 print("Alan : {0}".format(alan))
 print("Çevre : {0}".format(cevre))
+
+## ---(Thu Mar 31 22:27:17 2022)---
+list()
+notlar = [90,80,45,17]
+type(notlar)
+liste= ["a",19.52,935,10.5]
+liste= ["a",19.52,935,10.5,notlar]
+liste_cok= ["a",19.52,935,10.5,notlar]
+liste= ["a",19.52,935,10.5]
+len(liste_cok)
+type(liste_cok[0])
+type(liste_cok[2])
+type(liste_cok[1])
+liste_cok[4]
+listem = [10,20,30,40,50]
+listem[1]
+listem[9]
+listem = [10,20,30,40,50]
+listem[1] #listemin 1.elemanı
+listem[9]
+listem[9]
+listem[0:2]
+listem[:2]
+listem[1:]
+listem[:2] #baştan 2ye kadar
+listem[1:] #1den en sona kadar 
+yeniliste = ["a",10,[20,30,40,50]]
+yeniliste[2]
+yeniliste[2][3]
