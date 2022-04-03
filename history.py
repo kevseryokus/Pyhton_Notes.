@@ -202,3 +202,41 @@ listem[1:] #1den en sona kadar
 yeniliste = ["a",10,[20,30,40,50]]
 yeniliste[2]
 yeniliste[2][3]
+liste=["nar","elma" ,"portakal","muz","mandalina"]
+liste
+liste[2]
+liste[2]=Antalya Portakalı
+liste[2]="Antalya Portakalı"
+liste
+liste[2]="portakal"
+liste
+liste[:4]
+liste[:4]="a","b","c","d"
+liste
+liste=["nar","elma" ,"portakal","muz","mandalina"]
+liste
+liste + ["kiraz"]
+liste
+liste + ["kiraz"]
+liste
+liste = liste + ["kiraz"]
+liste
+del liste[2]
+liste
+del liste[0]
+liste
+liste_yeni
+liste_yeni=["ali","ahmet","lamba"]
+liste_yeni
+dir(liste_yeni)
+liste
+liste_yeni
+liste_yeni.append("kalem")
+liste_yeni
+liste_yeni.remove("ahmet")
+liste_yeni
+yeniliste[2][3]
+yeniliste[2]
+yeniliste = ["a",10,[20,30,40,50]]
+yeniliste[2]
+yeniliste[2][3]
