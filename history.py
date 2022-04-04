@@ -354,3 +354,23 @@ list
 list.pop(4)
 list(2)
 list.pop(2)
+
+## ---(Mon Apr  4 22:11:54 2022)---
+liste=["ali","veli","ayse","ali","ayse","veli","elli"]
+liste
+liste.count("ali")
+liste.count("elli")
+liste_yedek = liste.copy()
+liste.extend (["a","cb","kevser",10])
+liste
+liste.index("veli")
+liste.index("elli")
+liste.reverse()
+liste
+liste.sort()
+liste = [10,20,35,39,88,95,93,65,72,89,100]
+liste.sort()
+liste
+lşste
+liste.clear()
+liste

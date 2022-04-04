@@ -95,6 +95,52 @@ liste.insert(len(liste),"ss")
 liste.pop(0)
 liste.pop(4)
 
+#Count sayma metodu
+liste=["ali","veli","ayse","ali","ayse","veli","elli"]
+liste
+liste.count("ali")
+liste.count("elli")
+
+#copy metodu (yedeklemek)
+liste_yedek = liste.copy()
+
+#extend (iki listeyi kalıcı birleştirmek)
+liste.extend (["a","cb","kevser",10])
+liste
+
+
+#index metodu (bir eleman hangi indekste)
+liste.index("veli")
+liste.index("elli")
+
+#reverse metodu (elemanları terse çevirme)
+liste.reverse()
+liste
+
+#Sort metodu (sıralama yapmak için kullanılır)
+liste = [10,20,35,39,88,95,93,65,72,89,100]
+liste.sort()
+liste
+
+#clear metodu (liste temizleme)
+liste.clear()
+liste
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
