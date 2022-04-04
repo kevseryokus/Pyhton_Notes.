@@ -240,3 +240,117 @@ yeniliste[2]
 yeniliste = ["a",10,[20,30,40,50]]
 yeniliste[2]
 yeniliste[2][3]
+break
+import random
+
+pics = ["""
+   +---+
+   |   |
+       |
+       |
+       |
+       |
+=========""","""
+   +---+
+   |   |
+   O   |
+       |
+       |
+       |
+=========""","""
+   +---+
+   |   |
+   O   |
+   |   |
+       |
+       |
+=========""","""
+   +---+
+   |   |
+   O   |
+  /|   |
+       |
+       |
+=========""","""
+   +---+
+   |   |
+   O   |
+  /|\  |
+       |
+       |
+=========""","""
+   +---+
+   |   |
+   O   |
+  /|\  |
+  /    |
+       |
+=========""","""
+   +---+
+   |   |
+   O   |
+  /|\  |
+  / \  |
+       |
+========="""]
+
+while True:
+    print(("-" * 30) + "\nHangman Game\n" + ("-" * 30))
+    
+    word = random.choice(["windows", "python", "terminal", "ubuntu"])
+    step = 0
+    letters = []
+    
+    while True:
+        print(pics[step])
+        
+        for i, char in enumerate(word):
+            print(char if i in letters else "_"),
+        
+        answer = raw_input("\nAnswer: ")
+        
+        if answer == word:
+            print("You win!\n\n")
+            break
+        else:
+            while True:
+                rand = random.randint(0, len(word))
+                if not rand in letters:
+                    letters.append(rand)
+                    break
+            
+            step += 1
+        
+        if step >= len(pics):
+            print("You lose!\n\n")
+            break
+    
+    if not "y" == raw_input("Play again (y/n): "):
+        break
+5
+o
+liste_yeni
+
+## ---(Mon Apr  4 20:21:01 2022)---
+list
+list=["kahve","nescafe","tchibo","jacobs"]
+list
+list.insert(0,ays)
+list.insert(0,"ays")
+list
+list.insert(0,"1")
+list
+list=["kahve","nescafe","tchibo","jacobs"]
+list
+list[0]="ıce"
+list
+list.insert(5,"ss")
+list
+list.insert(8,"ss")
+len(list)
+liste.insert(len(list),"aa")
+list.insert(len(list),"aa")
+list
+list.pop(4)
+list(2)
+list.pop(2)

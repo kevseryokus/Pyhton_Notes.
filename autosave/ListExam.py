@@ -84,3 +84,38 @@ liste_yeni
 
 liste_yeni.remove("ahmet")
 liste_yeni
+
+
+
+liste.insert(0,"aa")
+#insert indekse göre eleman eklemek için kullanılır.
+liste.insert(len(liste),"ss")
+
+#pop eleman silme metodudur.
+liste.pop(0)
+liste.pop(4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

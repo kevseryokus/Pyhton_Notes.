@@ -1,16 +1,16 @@
-#VERİ YAPILARI
+#VERÄ° YAPILARI
 
-#Python'da kullanılan birden fazla veri yapısı var.
-#1.LİSTELER
+#Python'da kullanÄ±lan birden fazla veri yapÄ±sÄ± var.
+#1.LÄ°STELER
 #2.TUPLE
 #3.SETLER
-#4.SÖZLÜK
+#4.SÃZLÃK
 
 
 
-#LİSTELER
-#değiştirilebilir,kapsayıcı,sıralı.
-#liste 2 ayrı yolla oluşturulabilir.
+#LÄ°STELER
+#deÄiÅtirilebilir,kapsayÄ±cÄ±,sÄ±ralÄ±.
+#liste 2 ayrÄ± yolla oluÅturulabilir.
 #list()
 #[]
 
@@ -20,21 +20,21 @@ liste= ["a",19.52,935,10.5]
 liste_cok= ["a",19.52,935,10.5,notlar]
 len(liste_cok)
 
-type(liste_cok[0]) #0.indeksteki elemanın tipini gösterir.
+type(liste_cok[0]) #0.indeksteki elemanÄ±n tipini gÃ¶sterir.
 type(liste_cok[2])
 type(liste_cok[1])
-liste_cok[4] #liste_cok un 4.indeksini gösterir.
+liste_cok[4] #liste_cok un 4.indeksini gÃ¶sterir.
 #del komutu ile liste silinebilir.
 
 
 
-#Listeler-Eleman İsimleri
+#Listeler-Eleman Ä°simleri
 
 listem = [10,20,30,40,50]
-listem[1] #listemin 1.elemanı
+listem[1] #listemin 1.elemanÄ±
 listem[9]
-listem[0:2] #0'dan 2'ye kadar,2 dahil değil.
-listem[:2] #baştan 2ye kadar
+listem[0:2] #0'dan 2'ye kadar,2 dahil deÄil.
+listem[:2] #baÅtan 2ye kadar
 listem[1:] #1den en sona kadar 
 
 yeniliste = ["a",10,[20,30,40,50]]
@@ -43,14 +43,14 @@ yeniliste[2][3]
 
 
 
-#LİSTELER ELEMAN DEĞİŞTİRME
+#LÄ°STELER ELEMAN DEÄÄ°ÅTÄ°RME
 
 liste=["nar","elma" ,"portakal","muz","mandalina"]
 liste
 
-#Portakalı Antalya Portakalı olarak değiştirmek istediğimizde
+#PortakalÄ± Antalya PortakalÄ± olarak deÄiÅtirmek istediÄimizde
 liste[2]
-liste[2]="Antalya Portakalı"
+liste[2]="Antalya PortakalÄ±"
 liste
 
 liste[2]="portakal"
@@ -66,15 +66,15 @@ liste
 
 liste + ["kiraz"]
 liste
-#Kalıcı eklenmedi listemize.Atama işlemi gerçekleştirmemiz lazım.
+#KalÄ±cÄ± eklenmedi listemize.Atama iÅlemi gerÃ§ekleÅtirmemiz lazÄ±m.
 liste = liste + ["kiraz"]
 liste
-#Liste içinden eleman silme
+#Liste iÃ§inden eleman silme
 del liste[0]
 liste
 
 
-#LİSTE METODLARI
+#LÄ°STE METODLARI
 liste_yeni=["ali","ahmet","lamba"]
 liste_yeni
 dir(liste_yeni)
@@ -89,11 +89,32 @@ liste_yeni.remove("ahmet")
 liste_yeni
 
 
+#insert ve pop komutları
+#indekse göre eleman eklemek için kullanılır.
+
+list=["kahve","nescafe","tchibo","jacobs"]
+list
 
 
+list.insert(0,"1")
 
 
+list=["kahve","nescafe","tchibo","jacobs"]
+list
 
+list[0]="ıce"
+list
+
+list.insert(8,"ss")
+list
+
+len(list)
+
+list.insert(len(list),"aa")
+list
+
+list.pop(4)
+list.pop(2)
 
 
 
