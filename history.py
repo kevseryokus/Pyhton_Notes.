@@ -374,3 +374,23 @@ liste
 lşste
 liste.clear()
 liste
+t = ("ali","veli",1,2,3.2,[1,2,3,4])
+
+## ---(Fri Apr 15 13:44:19 2022)---
+t = ("ali","veli",1,2,3.2,[1,2,3,4])
+t = "ali","veli",1,2,3.2,[1,2,3,4]
+type()
+type(t)
+t = ("eleman")
+type(t)
+t = ("eleman",)
+type(t)
+t = ("eleman")
+type(t)
+t = ("eleman",)
+type ()
+t = ("eleman",)
+type ()
+t = "ali","veli",1,2,3.2,[1,2,3,4]
+t = ("eleman",)
+type (t)

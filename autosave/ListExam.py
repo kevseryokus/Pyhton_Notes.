@@ -127,6 +127,25 @@ liste.clear()
 liste
 
 
+# 2)VERİ YAPILARI : TUPLE (DEMET OLUŞTURMA)
+#kapsayıcıdır.
+#sıralıdır.
+#değiştirilemezdir.
+
+t = ("ali","veli",1,2,3.2,[1,2,3,4])
+t = "ali","veli",1,2,3.2,[1,2,3,4]
+
+#tuple()
+
+t = ("eleman")
+type(t)
+
+#Bu şekilde str oluyor. Tuple için , eklemeliyiz (tek elemansa)
+
+t = ("eleman",)
+type (t)
+
+
 
 
 

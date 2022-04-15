@@ -90,9 +90,9 @@ startup/fixed_directory = C:\Users\Kevser03\.spyder-py3
 [editor]
 splitter_state = 000000ff00000001000000010000048d01ffffffff010000000100
 recent_files = ['C:\\Users\\Kevser03\\.spyder-py3\\temp.py', 'C:\\Users\\Kevser03\\.spyder-py3\\autosave\\temp.py', 'C:\\Users\\Kevser03\\.spyder-py3\\autosave\\temp-1.py', 'C:\\Users\\Kevser03\\.spyder-py3\\autosave\\Notes.py']
-filenames = ['C:\\Users\\Kevser03\\.spyder-py3\\temp.py', 'C:\\Users\\Kevser03\\untitled0.py']
+filenames = ['C:\\Users\\Kevser03\\.spyder-py3\\temp.py']
 bookmarks = {}
-layout_settings = {'hexstate': '000000ff0000000100000001000000e900ffffffff010000000100', 'sizes': [957], 'splitsettings': [(False, 'C:\\Users\\Kevser03\\untitled0.py', [90, 1])]}
+layout_settings = {'hexstate': '000000ff0000000100000001000003bd00ffffffff010000000100', 'sizes': [957], 'splitsettings': [(False, 'C:\\Users\\Kevser03\\.spyder-py3\\temp.py', [126])]}
 
 [outline_explorer]
 scrollbar_position = None
